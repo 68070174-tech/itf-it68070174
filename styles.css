@@ -3,7 +3,6 @@ nav {
      display: flex;
      justify-content: space-between;
      padding: 20px;
-     font-size: x-large;
 }
 
 body {
@@ -12,11 +11,12 @@ body {
 
 img {
     margin: 10px;
+    width: auto;
+    height: 140;
 }
 
 textarea {
     width: 90%;
-    font-size: xx-large;
 }
 
 .Heading {
@@ -29,7 +29,6 @@ textarea {
 
 #Account-Overview, #Finance {
     padding: 10px;
-    font-size: x-large;
 }
 
 .accinfo, .balinfo, .bankop, .Tools {
@@ -42,19 +41,13 @@ textarea {
     margin-left: 3cm;
 }
 
-input {
-    font-size: x-large;
-}
-
 button {
     padding: 5px 10px;
-    font-size: large;
     background-color: coral;
 }
 
 select {
     padding: 5px 10px;
-    font-size: large;
 }
 
 .content {
