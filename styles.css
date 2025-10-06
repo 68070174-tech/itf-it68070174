@@ -1,9 +1,19 @@
 nav {
-     background-color: orangered;
+     background-color: pink;
      display: flex;
      justify-content: space-between;
 }
 
 body {
     margin: 0;
+}
+
+img {
+    margin: 10px;
+}
+
+.Heading {
+    padding: 10px;
+    background-color: lightcoral;
+
 }
