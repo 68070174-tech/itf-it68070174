@@ -7,6 +7,10 @@ nav {
 
 body {
     margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 img {
@@ -16,14 +20,17 @@ img {
 
 textarea {
     width: 90%;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .Heading {
     margin-block: 10px;
     padding: 10px;
-    background-color: lightcoral;
     display: flex;
     gap: 20px;
+    border: 1px solid #ddd;
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
 }
 
 #Account-Overview, #Finance {
@@ -53,10 +60,13 @@ select {
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    border: 3px solid #ddd;
 }
 
 .box {
     flex: 1;
     padding: 20px;
-    border: 1px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    backdrop-filter: blur(30px);
 }
