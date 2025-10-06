@@ -14,10 +14,57 @@ img {
     margin: 10px;
 }
 
+textarea {
+    width: 90%;
+    font-size: xx-large;
+}
+
 .Heading {
     margin-block: 10px;
     padding: 10px;
     background-color: lightcoral;
     display: flex;
     gap: 20px;
+}
+
+#Account-Overview, #Finance {
+    padding: 10px;
+    font-size: x-large;
+}
+
+.accinfo, .balinfo, .bankop, .Tools {
+    display: flex;
+    gap:  1.5cm;
+    margin-bottom: 1cm;
+}
+
+.balinfo input {
+    margin-left: 3cm;
+}
+
+input {
+    font-size: x-large;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: large;
+    background-color: coral;
+}
+
+select {
+    padding: 5px 10px;
+    font-size: large;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.box {
+    flex: 1;
+    padding: 20px;
+    border: 1px;
 }

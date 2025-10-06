@@ -13,17 +13,91 @@
         <p>Week 14</p>
     </nav>
     <div class="Heading">
-        <img src="Adore.png" width="120" alt="">
+        <img src="Adore.png" width="150" alt="">
         <div>
             <h1>ITF Simple Bank</h1>
             <h2>My First Actual Website</h2>
         </div>
     </div>
     <hr>
-    <center><textarea name="" rows="10" cols="150" id=""></textarea></center>
-    <div class="Account Overview">
-        <h2>Account Overview</h2>
+    <center><textarea id="log" rows="15" id=""></textarea></center>
+    <div class="content">
+        <div id="Account-Overview" class="box">
+            <h2>Account Overview</h2>
+            <div class="accinfo">
+                <img src="user.png" width="auto" height="140" alt="">
+                <div>    
+                    <h3>Account Information</h3>
+                    <p>Name: Wisarut Sangsawat</p>
+                    <p>Type: Savings Account</p>
+                </div>
+            </div>
+            <div class="balinfo">
+                <img src="credit_card.png" width="auto" height="140" alt="">
+                <div>    
+                    <h3>Balance Information</h3>
+                    <div>
+                        <label for="current-balance">Current account 
+                            <br>balance:
+                        </label>
+                        <input type="number" id="current-balance" value="1000">
+                    </div>
+                    <div>
+                        <label for="current-cash">Type: Savings 
+                            <br>Account
+                        </label>
+                        <input type="number" id="current-cash" value="1000">
+                    </div>
+                    <div>
+                        <br>
+                        <button type="button" onclick="change()">Change</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bankop">
+                <img src="coins.png" width="auto" height="140" alt="">
+                <div>
+                    <h3>Bank operation</h3>
+                    <select id="operation">
+                        <option value="Deposit">Deposit</option>
+                        <option value="Withdraw">Withdraw</option>
+                    </select>
+                    <input type="number" id="Amount">
+                    <div>
+                        <br>
+                        <button type="submit">Proceed</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Finance" class="box">
+            <h2>Financial Tools</h2>
+            <div class="Tools">
+                <img src="coins.png" width="auto" height="140" alt="">
+                <div>
+                    <h3>Currency Converter</h3>
+                    <div>
+                        <label for="inputconvert">Input balance:</label>
+                        <input type="number" id="inputconvert" value="0">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="outputconvert">Output balance:</label>
+                        <input type="number" id="outputconvert" readonly value="0">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="currency">Input currency:</label>
+                        <select id="currency">
+                            <option value="USD">USD</option>
+                            <option value="THB">THB</option>
+                        </select>
+                        <button id="currency">Convert</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
